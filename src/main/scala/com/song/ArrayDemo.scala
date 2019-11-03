@@ -71,7 +71,7 @@ object ArrayDemo {
     println(s.search("world"))
 
 
-    val command = ArrayBuffer("ls", "-al", "/Users/chinadaas")
+    val command = ArrayBuffer("ls", "-al", "/Users/")
 
     import collection.JavaConversions.bufferAsJavaList
 
